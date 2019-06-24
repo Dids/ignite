@@ -1,6 +1,10 @@
 package main
 
-import "log"
+import (
+	"log"
+
+	"github.com/Dids/ignite/util"
+)
 
 func main() {
 	log.Println("Not implemented")

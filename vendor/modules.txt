@@ -1,0 +1,9 @@
+# github.com/ajeddeloh/go-json v0.0.0-20170920214419-6a2fe990e083
+github.com/ajeddeloh/go-json
+# github.com/coreos/ignition v0.32.0
+github.com/coreos/ignition/config/validate
+github.com/coreos/ignition/config/validate/astjson
+github.com/coreos/ignition/config/validate/astnode
+github.com/coreos/ignition/config/validate/report
+# go4.org v0.0.0-20190313082347-94abd6928b1d
+go4.org/errorutil
