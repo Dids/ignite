@@ -1,10 +1,14 @@
-[![Build Status](https://travis-ci.org/Dids/ignite.svg?branch=master)](https://travis-ci.org/Dids/ignite)
+[![Build Status](https://travis-ci.com/Dids/ignite.svg?branch=master)](https://travis-ci.com/Dids/ignite)
 
 # Ignite
 
 Ignite is an [Ignition]() configuration file utitility, which helps you validate and merge multiple configurations into one, among other things.
 
+_NOTE: Work in progress!_
+
 ### Installation
+
+_NOTE: Untested and likely broken!_
 
 The installation method highlighted below requires [Homebrew](https://brew.sh/), but alternatively you can build it yourself, or even use Go to install the binaries.
 
@@ -16,7 +20,7 @@ You can also install the latest development version:
 
 ### Usage
 
-_TODO_
+_NOTE: TODO_
 
 ### Development
 
