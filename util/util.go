@@ -3,15 +3,23 @@ package util
 import (
 	"log"
 
-	validate "github.com/coreos/ignition/config/validate"
+	ignConfig "github.com/coreos/ignition/config/v2_2"
 )
 
 // Validate verifies the structure of the Ignition config
-func Validate() {
+func Validate(config []byte) error {
 	// TODO: Implement
 	log.Println("Validate()")
-	report := validate.ValidateConfig(nil, nil)
-	log.Println(report)
+
+	cfg, report, err := ignConfig.Parse(config)
+	if err != nil {
+		return err
+	}
+
+	log.Println("Cfg:", cfg)
+	log.Println("Report:", report)
+
+	return nil
 }
 
 // Merge combines together two or more Ignition config files
